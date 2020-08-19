@@ -1,0 +1,105 @@
+    1  mkdir ~/week1
+    2  cd week1
+    3  hostname
+    4  whoami
+    5  man <whoani>
+    6  man <whoami>
+    7  man whoami
+    8  man man
+    9  man whoami
+   10  man man
+   11  man --h
+   12  man --help
+   13  q
+   14  less
+   15  ls /usr/bin
+   16  ls /usr/bin | sort -r | grep "gcc"
+   17  ls /usr/bin | sort -r |
+   18  ls /usr/bin | sort -r
+   19  ls /usr/bin
+   20  sudo apt update
+   21  sudo apt install build-essential
+   22  sudo apt-get install manpages-dev
+   23  gcc --version
+   24  ls /usr/bin | sort -r | grep "gcc"
+   25  nano ex0003.sh
+   26  sh ex0003.sh
+   27  vim ~/week1/main.c
+   28  sudo apt install vim
+   29  vim ~/week1/main.c
+   30  gcc main.c -o ex4
+   31  ./ex4
+   32  usr/bin | grep "gcc" |sort -r > ~/ week1/> ~/week1/ex1.txt
+   33  ls ~/usr/bin | grep "gcc" |sort -r > ~/ week1/> ~/week1/ex1.txt
+   34  ls ~/usr/bin | grep "gcc" |sort -r > ~/week1/ex1.txt
+   35  ls /usr/bin | grep "gcc" |sort -r > ~/week1/ex1.txt
+   36  pwd
+   37  ls
+   38  nano ex1.txt
+   39  history >~/week1/ex2.txt
+   40  nano ex2.txt
+   41  git init
+   42  sudo apt install git
+   43  git init
+   44  git remote add origin https://github.com/franisulla/week1.git
+   45  cd week1
+   46  git commit ex1.txt
+   47  pwd
+   48  ls
+   49  git commit ex1.txt
+   50  git add ex1.txt
+   51  pwd
+   52  ls
+   53  git add ex4.sh
+   54  nano ex4.sh
+   55  git remote add origin https://github.com/franisulla/week1.git
+   56  git push -u origin master
+   57  echo "# week1" >> README.md
+   58  git init
+   59  git add README.md
+   60  git commit -m "first commit"
+   61  git remote add origin https://github.com/franisulla/week1.git
+   62  git push -u origin master
+   63  git commit -m "first commit"
+   64  git config --global user.email "theviolthevioletandthewine@gmail.com"
+   65  git config --global user.name "franisulla"
+   66  git commit -m "first commit"
+   67  git remote add origin https://github.com/franisulla/week1.git
+   68  git remote set-url origin git@github.com:franisulla/week1.git
+   69  git push -u origin master
+   70  git --version
+   71  mkdir OSlabs
+   72  cd OSlabs
+   73  git clone https://github.com/franisulla/OS.git
+   74  ls
+   75  cd OS
+   76  git status
+   77  git checkout -b week1
+   78  cp ~/week1 $pwd
+   79  cp ~/week1 ~/OSlabs/OS
+   80  ls
+   81  cp -r ~/week1 ~/OSlabs/OS
+   82  ls
+   83  git status
+   84  git add
+   85  git add week1
+   86  git commit
+   87  git commit -m "initial commit!"
+   88  git push
+   89  git push origin week1
+   90  history >> ~/mumtozzz
+   91  history >> ~/mumtozzz.txt
+   92  mkdir ~/week1
+   93  cd ~/week1
+   94  v
+   95  hostname
+   96  man whoami
+   97  nano mumtozzz.txt
+   98  mkdir ~/week1
+   99  cd ~/week1
+  100  ls/usr/bin|greep gcc|sort-r>/~week1/ex1.txt
+  101  ls/usr/bin|grep gcc|sort-r>/~week1/ex1.txt
+  102  ls/usr/bin|grep gcc|sort-r>~/week1/ex1.txt
+  103  ls/usr/bin|grep gcc|sorter>~/week1/ex1.txt
+  104  history>
+  105  history> ~/week1/ex2.txt
