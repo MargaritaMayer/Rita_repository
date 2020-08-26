@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <limits.h>
+#include <float.h>  
+int main()
+{
+
+	int Int_var;
+	float Flt_var;
+	double Dbl_var;
+	
+	Int_var = INT_MAX;
+	Flt_var = FLT_MAX;
+	Dbl_var = DBL_MAX;
+	
+   	int size_int = sizeof(Int_var);
+   	int size_flt = sizeof(Flt_var);
+   	int size_dbl = sizeof(Dbl_var);
+   	
+	   
+	
+	printf("%d\n",(size_int));
+	printf("%d\n", Int_var); 
+	
+	printf("%d\n",(size_flt));
+	printf("%f\n", Flt_var); 
+
+  	printf("%d\n",(size_dbl));
+	printf("%f\n", Dbl_var); 
+
+	return 0;
+}
