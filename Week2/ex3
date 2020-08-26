@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void funct(int n){
+	int i, j;
+	int str_numb = 1;
+	while (str_numb < n + 1){
+		for (i = 0; i < n - str_numb; i++)
+			printf(" ");
+		for (i = 0; i < str_numb*2 - 1; i++)
+			printf("*");
+		printf("\n");
+		str_numb++;
+	}
+	
+}
+
+int main(int argc, char* argv[]) {
+	
+	int n = 0;
+
+  	
+	scanf("%d", &n);
+	
+	funct(n);
+	
+	return 0;
+}
