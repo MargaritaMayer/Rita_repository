@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+ char a1[2000], a2[2000];
+ int start = 0;
+ int end = 0;
+ int count = 0;
+
+ 
+ gets(a1);
+
+ count = strlen(a1);
+ end = count - 1;
+
+ for (start = 0; start < count; start++) {
+ a2[start] = a1[end];
+ end--;
+ }
+
+ a2[start] = '\0';
+ printf("%s\n", a2);
+
+ return 0;
+}
