@@ -1,1 +1,2 @@
-
+   text	   data	    bss	    dec	    hex	
+   2050	    324	     16	    301	    snake
