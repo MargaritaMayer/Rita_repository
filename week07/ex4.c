@@ -1,61 +1,52 @@
 #include <stdio.h>
 #include <malloc.h>
-#include <memory.h>
 
-void* f_realloc(void* ptr, size_t old_size, size_t size) {
-    if (size == 0) {
+void* f_realloc(void* ptr, size_t new_size) {
+    if (new_size == 0) {
         free(ptr);
         return NULL;
     }
+       
     
-    
-    
-     void* arr = malloc(size);
+     void* arr = malloc(new_size);
     if (ptr == NULL) {
-    //	arr = maloc(size);
         return arr;
     }
-    
-    //arr = maloc(size);
-    
-    if (old_size > size) {
-        memcpy(arr, ptr, size);
-    }
-    else {
-        memcpy(arr, ptr, old_size);
-    }
+      
+        memcpy(arr, ptr, new_size);
     free(ptr);
     return arr;
 }
 
 
 int main() {
-    int a = 5;
-    int b = 8;
-    int* arr = f_realloc(NULL, a*sizeof(*arr) , b * sizeof(*arr)); 
+    int a = 5; //first length
+    int b = 8; //second length
+    int* arr = f_realloc(NULL, a*sizeof(*arr)); 
     int i;
-    printf("My array:\n");
+    printf("Our array:\n");
 
 	for (i = 0; i < a; i++) {
 		arr[i]=i*i;
         printf("%d ", arr[i]);
     }
     printf("\n");
-    free(arr);
-    arr = malloc(a * sizeof(int));
-    printf("Please print new elements\n");
+   
+    printf("Please print new five elements\n");
     for (i = 0; i < a; ++i) {
         scanf_s("%d", &arr[i]);
     }
+    printf("Our new array:\n");
     for (i = 0; i < a; ++i) {
         printf("%d ", arr[i]);
     }
     printf("\n");
-    arr = f_realloc(arr, a * sizeof(*arr), b * sizeof(*arr));
-    arr[1] = 13;
+    arr = f_realloc(arr, b * sizeof(*arr));
+    printf("Our array with new length:\n");
     for (i = 0; i < b; ++i) {
         printf("%d ", arr[i]);
     }
+    
     printf("\n");
     return 0;
 }
