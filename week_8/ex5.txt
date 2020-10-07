@@ -1,0 +1,3 @@
+Virtual address is an abstraction for a process and processor to work with, one of MMU's job is to map a virtual address (if it is in RAM) to phisical address.
+Physical address- actual address on RAM. 
+A phisical address is always associated with some particular memory cell in (RAM), whereas a virtual address may or may not be assosiated with some (variable) phisical address. 
