@@ -1,0 +1,6 @@
+Aging algorythm is more efficient when there are many references to the same pages in a small period of time because it relies on the principal of locality in time and has a limited time counter. 
+This algorithm is not so efficient when same pages are refernced over long periods.
+A sequence with a low hitmiss ratio is just a sequence, where each page is only reference once (for any algorythm)
+Let n be the number of reference frames, then a sequence
+1 2 3 .. n 1 2 3 .. n 1 2 ... would have a very high hitmiss ratio
+(miss = n, hit = number of references - n)
