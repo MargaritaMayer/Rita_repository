@@ -1,0 +1,2 @@
+touch ../week1/file.txt
+link ../week1/file.txt _ex2.txt

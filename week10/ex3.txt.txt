@@ -1,0 +1,12 @@
+touch _ex3.txt
+ll
+chmod 707 _ex3.txt
+ll
+chmod 777 _ex3.txt
+ll
+history 10 > ex3.txt
+
+
+660 means that a user and users in file's group can read and write to the file (cannot execute), other people cannot read, write and execute.
+775 means that user and grop have all permission, while others can only read and execute (cannot write).
+777 means that everyone(users, group and others) can read, write and execute the file.
