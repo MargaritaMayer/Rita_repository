@@ -1,0 +1,1 @@
+Usage of O_SYNC increases the time of execution, because parallel DMA cannot be used anymore
